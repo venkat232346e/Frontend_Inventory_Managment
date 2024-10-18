@@ -1,0 +1,87 @@
+/* App.css */
+.container {
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* Shared container styles */
+.formContainer {
+  width: 50%;
+  padding: 40px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: linear-gradient(rgb(233, 229, 229), rgb(115, 161, 203)); 
+  box-sizing: border-box;
+}
+
+.leftContainer {
+  border: 2px black solid;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  padding: 40px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+.inputGroup {
+  margin-bottom: 15px;
+}
+
+.input {
+  width: 75%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.submitButton {
+  width: 75%;
+  padding: 10px;
+  background-color: #ff3b3f;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.signInLink {
+  color: #ff3b3f;
+  text-decoration: none;
+}
+
+.googleSignUp {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.googleButton {
+  padding: 10px;
+  background-color: #4285F4;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  width: 75%;
+}
+
+/* Adjusting the image size */
+.imageContainer {
+  margin-top: 20px;
+}
+
+.image {
+  width: 90%;   /* Increased from 75% to 90% to make the image larger */
+  height: auto;
+  border-radius: 8px;
+}
