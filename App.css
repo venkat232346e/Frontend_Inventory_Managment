@@ -1,0 +1,91 @@
+/* Styles for the login page */
+.login-page {
+  display: flex;
+  height: 100vh;
+  background-color: #f2f2f2; /* Light background for the whole page */
+}
+
+.left-side {
+  flex: 1;
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  justify-content: center;
+  align-items: center;
+  background-color: white; /* White background on the left side */
+}
+
+.left-side h1 {
+  font-size: 2.5rem;
+  color: #b3544f; /* Light red color for "Inventory Management System" */
+  margin-bottom: 1rem; /* Add some space below the title */
+}
+
+.left-side img { /* Styling for the image */
+  max-width: 80%; /* Control the image width */
+  height: auto; /* Maintain aspect ratio */
+  margin-top: 1rem; /* Space above the image */
+}
+
+.right-side {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f8f8; /* Light gray background for right side */
+  padding: 2rem;
+}
+
+.right-side h2 {
+  font-size: 2rem;
+  color: #b3544f; /* Light red color for "Welcome back" */
+  margin-bottom: 1rem;
+}
+
+.google-login-button {
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 1rem;
+}
+
+form {
+  width: 100%;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.login-button {
+  padding: 0.75rem;
+  font-size: 1rem;
+  background-color: #b3544f; /* Light red color for the login button */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #a94b47; /* Slightly darker red on hover */
+}
+
+.footer {
+  margin-top: 1rem;
+}
+
+.footer a {
+  color: #b3544f; /* Light red color for "Sign Up" */
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
